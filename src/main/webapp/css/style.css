@@ -1,0 +1,102 @@
+body{
+
+    font-family: Arial;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+
+    text-align: center;
+    margin-top: 150px;
+}
+
+.container h1{
+
+    color: #333;
+}
+
+.btn{
+
+    display: inline-block;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.logout{
+
+    background: red;
+}
+
+.form-box{
+
+    width: 350px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.form-box h2{
+
+    text-align: center;
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea{
+
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.dashboard{
+
+    text-align: center;
+    margin-top: 100px;
+}
+
+.table-box{
+
+    width: 80%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table{
+
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td{
+
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+table th{
+
+    background: blue;
+    color: white;
+}
+
+.delete-btn{
+
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
